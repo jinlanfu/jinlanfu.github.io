@@ -1,5 +1,22 @@
 @import url("pygment_highlights.css");
 
+content {
+            padding: 20px;
+}
+
+ad-container{
+            background-color: #ccddff;
+            color: #000;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+}
+
 /* --- General --- */
 
 body {
@@ -764,64 +781,12 @@ UL UL {
     color: #38a687;
     text-decoration: none;
 }
-span.project_text {
-    /*border: 1pt;*/
-    background-color: ;
-    border-radius: 50pt;
-    font-size: 14pt;
-    /*margin-right: 5pt;
-    padding: .15em 1.4em;*/
-    color: #3c58ad;
-    /*border-width: 1pt;
-    border-style: solid;*/
-    font-weight: 700;
-}
-
-/*a.pj_home{
-    border: 1pt;
-    background-color:#ebfafa;
-    border-radius: 50pt;
-    font-size: 85%;
-    margin-right: 5pt;
-    padding: .15em 1.4em;
-    color: #3c58ad; 
-    border-width: 1pt;
-    border-style: solid;
-    font-weight: 700;
-}*/
-
-a.pj_home{
-    border: 1pt;
-    background-color:#8da0d8;
-    border-radius: 50pt;
-    font-size: 85%;
-    margin-right: 5pt;
-    padding: .15em 1.4em;
-    color:  #ffffff; 
-    border-width: 1pt;
-    border-style: solid;
-    font-weight: 700;
-}
-
-span.conf{
-    border: 1pt;
-    background-color:#8da0d8;
-    border-radius: 50pt;
-    font-size: 85%;
-    margin-right: 5pt;
-    padding: .15em 1.4em;
-    color:  #ffffff; 
-    border-width: 1pt;
-    border-style: solid;
-    font-weight: 700;
-}
-
 
 a.my_details {
     border: 1pt;
     background-color: ;
     border-radius: 50pt;
-    font-size: 80%;
+    font-size: 60%;
     margin-right: 5pt;
     padding: .15em 1.4em;
     color: #3c58ad;
@@ -847,7 +812,7 @@ a.my_code {
     border: 1pt;
     background-color: #EBF5FB;
     border-radius: 50pt;
-    font-size: 80%;
+    font-size: 60%;
     margin-right: 5pt;
     padding: .15em 1.4em;
     color: #3c58ad;
@@ -860,7 +825,7 @@ a.my_keynote {
     border: 1pt;
     background-color: #3c58ad;
     border-radius: 50pt;
-    font-size: 80%;
+    font-size: 60%;
     margin-right: 5pt;
     padding: .15em 1.4em;
     color: white;
@@ -920,28 +885,3 @@ a.my_code:hover {
 .bibliography li { margin: 15px 0;}
 .floatright { float: right; }
 .floatleft { float: left; }
-
-.publications { margin-top: 28px; }
-.publications h2.year { color: #828282; border-top: 1px solid #e8e8e8; padding-top: -8rem; margin-top: -1rem; margin-bottom: -2rem; text-align: right; }
-.publications ol.bibliography { font-size: 1rem; list-style: none; padding: 0; margin-top: 0; }
-.publications ol.bibliography li { margin-bottom: 1rem; }
-.publications ol.bibliography li .abbr { height: 2rem; margin-bottom: 0.5rem; padding-left: -5rem; padding-right: -50rem; max-width: 100px; font-size: 18px; }
-.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: #3C58AD; padding-left: -5rem; padding-right: -5rem; }
-.publications ol.bibliography li span { width: 120%; display: block; font-size: 20px; }
-.publications ol.bibliography li .title { font-weight: bolder; font-size: 18px; }
-.publications ol.bibliography li .author { font-size: 16px; }
-.publications ol.bibliography li .author a { border-bottom: 1px dashed #bb0000; }
-.publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
-.publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
-.publications ol.bibliography li em.star { border-bottom: none; color: #bb0000; font-style: normal; }
-.publications ol.bibliography li a.abstract, .publications ol.bibliography li a.bibtex { cursor: pointer; }
-.publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
-.publications ol.bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
-.publications ol.bibliography li .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
-.publications ol.bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
-.publications ol.bibliography li span.abstract.hidden { border: dashed 1px white; }
-.publications ol.bibliography li span.abstract.hidden.open { border-color: #828282; }
-
-
-
-
